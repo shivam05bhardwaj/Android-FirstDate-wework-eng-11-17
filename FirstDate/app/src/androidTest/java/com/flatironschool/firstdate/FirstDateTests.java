@@ -3,6 +3,9 @@ package com.flatironschool.firstdate;
 import android.test.AndroidTestCase;
 
 import java.util.ArrayList;
+import java.util.Calendar;
+import java.util.Date;
+import java.util.GregorianCalendar;
 
 /**
  * Created by altyus on 8/6/14.
@@ -44,6 +47,11 @@ public class FirstDateTests extends AndroidTestCase {
         assertFalse(mFirstDate.isScheduled());
     }
 
+    public void testGetDate(){
+        Calendar cal = new GregorianCalendar(2014,8,4); // Note Java Calendar is 0 based which
+        // is horrendous but it is... So 8 is September not August
+        assertEquals(FirstDate.getDate("09/04/2014"), cal.getTime());
+    }
     private static ArrayList<String>getValidPossibleDates(){
         ArrayList<String>possibleDates = new ArrayList<String>();
         possibleDates.add("09/04/2014");
