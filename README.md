@@ -16,4 +16,4 @@ Let the tests be your guide for what public methods need to be implemented.  But
 - Get a `Date` object when we pass in a string 
 
 Be crazy TDD ninja's and figure out how the app should be structured using the tests, but since that can be weired and ambiguous sometimes just ask if you need any more guidance.  
-<a href='https://learn.co/lessons/Android-FirstDate' data-visibility='hidden'>View this lesson on Learn.co</a>
+<p data-visibility='hidden'>View <a href='https://learn.co/lessons/Android-FirstDate' title='Android-FirstDate'>Android-FirstDate</a> on Learn.co and start learning to code for free.</p>
