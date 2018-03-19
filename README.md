@@ -15,5 +15,5 @@ Let the tests be your guide for what public methods need to be implemented.  But
 - Get the date of our scheduled date in case we forget... 
 - Get a `Date` object when we pass in a string 
 
-Be crazy TDD ninja's and figure out how the app should be structured using the tests, but since that can be weired and ambiguous sometimes just ask if you need any more guidance.  
+Be crazy TDD ninja's and figure out how the app should be structured using the tests, but since that can be weird and ambiguous sometimes just ask if you need any more guidance.  
 <p data-visibility='hidden'>View <a href='https://learn.co/lessons/Android-FirstDate' title='Android-FirstDate'>Android-FirstDate</a> on Learn.co and start learning to code for free.</p>
